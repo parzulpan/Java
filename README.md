@@ -4,7 +4,7 @@
 
 ## 思维导图
 
-![backend](resources/backend.png)
+![backend](_resources/backend.png)
 
 [思维导图源文件](resources/backend.xmind)
 

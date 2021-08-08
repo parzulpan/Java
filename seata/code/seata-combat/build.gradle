@@ -30,14 +30,19 @@ dependencies {
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.4'
 	implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+
 	// https://mvnrepository.com/artifact/io.seata/seata-all
-    implementation 'io.seata:seata-all:1.4.2'
+//     implementation 'io.seata:seata-all:1.4.2'
     // https://mvnrepository.com/artifact/com.alibaba.nacos/nacos-client
 //     implementation 'com.alibaba.nacos:nacos-client:2.0.3'
+
+    // https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-seata
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-seata:2.2.6.RELEASE'
     // https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-config
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.6.RELEASE'
     // https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-discovery
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.6.RELEASE'
+
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'mysql:mysql-connector-java'
 	annotationProcessor 'org.projectlombok:lombok'
